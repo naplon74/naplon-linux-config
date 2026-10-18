@@ -1,0 +1,114 @@
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/master/doc/json_schema.json",
+  "logo": {
+	"type": "kitty",
+	"source": "~/.config/fastfetch/fedora4.png",
+},
+"modules": [
+    {
+      "type": "title",
+      "color": {
+        "user": "#0052A2",
+        "at": "#02386E",
+        "host": "#00172D"
+      }
+    },
+
+    "separator",
+
+    {
+      "type": "os",
+      "key": "\uf30a OS",
+      "keyColor": "blue"
+    },
+    {
+      "type": "host",
+      "key": "󰌢 Host",
+      "keyColor": "yellow"
+    },
+    {
+      "type": "kernel",
+      "key": "󰒋 Kernel",
+      "keyColor": "yellow"
+    },
+    {
+      "type": "uptime",
+      "key": "󰅐 Uptime",
+      "keyColor": "yellow"
+    },
+    {
+      "type": "packages",
+      "key": "󰏖 Packages",
+      "keyColor": "yellow"
+    },
+    {
+      "type": "shell",
+      "key": " Shell",
+      "keyColor": "yellow"
+    },
+
+    "separator",
+
+    {
+      "type": "de",
+      "key": "󰧨 DE",
+      "keyColor": "cyan"
+    },
+    {
+      "type": "wm",
+      "key": "󰖲 WM",
+      "keyColor": "cyan"
+    },
+    {
+      "type": "terminal",
+      "key": " Terminal",
+      "keyColor": "cyan"
+    },
+
+    "separator",
+
+    {
+      "type": "cpu",
+      "key": "󰻠 CPU",
+      "keyColor": "red"
+    },
+    {
+      "type": "gpu",
+      "key": "󰢮 GPU",
+      "keyColor": "red"
+    },
+    {
+      "type": "memory",
+      "key": "󰍛 Memory",
+      "keyColor": "red",
+      "percent": {
+        "type": 3,
+        "green": 30,
+        "yellow": 70
+      }  
+    },
+    {
+      "type": "disk",
+      "key": "󰋊 Disk",
+      "keyColor": "red",
+      "percent": {
+        "type": 3,
+        "green": 30,
+        "yellow": 70
+      },  
+    },
+    {
+      "type": "battery",
+      "key": "󰁹 Battery",
+      "keyColor": "red",
+    },
+    {
+      "type": "poweradapter",
+      "key": "󰚥 Power",
+      "keyColor": "red"
+    },
+
+    "break",
+    "colors"
+  ]
+}
