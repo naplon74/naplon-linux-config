@@ -1,18 +1,28 @@
-## My Linux config files
+# My Linux config files
 
 ```
 .
 ├── config
 │   ├── btop
-│   │   └── themes
 │   ├── cava
-│   │   ├── shaders
-│   │   └── themes
 │   ├── fastfetch
+│   │   ├── config1
+│   │   └── config2
 │   ├── ghostty
 │   ├── kitty
 │   └── Pinta
 └── shell
 ```
 
-Last update: 18/10/2026
+## Fastfetch
+
+>[!NOTE]
+>To use those config you need a terminal that can display image. (Gnome Terminal does not support).
+
+### Config 1
+[Screenshot](config1/screen.png)
+
+### Config 2
+[Screenshot](config2/screen.png)
+
+Last update: 31/10/2026
